@@ -717,12 +717,12 @@ input[type=file]::file-selector-button:hover {
   border-width: 0;
 }
 
-.-z-10 {
-  z-index: -10;
-}
-
 .z-0 {
   z-index: 0;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .mx-auto {
@@ -778,21 +778,8 @@ input[type=file]::file-selector-button:hover {
   width: 100%;
 }
 
-.w-4 {
-  width: 1rem;
-}
-
-.w-auto {
-  width: auto;
-}
-
 .w-3\/4 {
   width: 75%;
-}
-
-.columns-2 {
-  -moz-columns: 2;
-       columns: 2;
 }
 
 .flex-col {
@@ -805,10 +792,6 @@ input[type=file]::file-selector-button:hover {
 
 .items-start {
   align-items: flex-start;
-}
-
-.items-end {
-  align-items: flex-end;
 }
 
 .items-center {
@@ -827,12 +810,12 @@ input[type=file]::file-selector-button:hover {
   justify-content: space-between;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-t-lg {
@@ -893,29 +876,19 @@ input[type=file]::file-selector-button:hover {
   padding-right: 1.25rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pr-4 {
@@ -926,16 +899,8 @@ input[type=file]::file-selector-button:hover {
   padding-left: 0.75rem;
 }
 
-.pl-14 {
-  padding-left: 3.5rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-justify {
@@ -949,21 +914,6 @@ input[type=file]::file-selector-button:hover {
 
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -1003,11 +953,6 @@ input[type=file]::file-selector-button:hover {
 .text-\[rgb\(31\2c 62\2c 114\)\] {
   --tw-text-opacity: 1;
   color: rgb(31 62 114 / var(--tw-text-opacity));
-}
-
-.text-yellow-500 {
-  --tw-text-opacity: 1;
-  color: rgb(194 120 3 / var(--tw-text-opacity));
 }
 
 .hover\:bg-blue-800:hover {
@@ -1152,14 +1097,6 @@ input[type=file]::file-selector-button:hover {
     width: auto;
   }
 
-  .md\:w-40 {
-    width: 10rem;
-  }
-
-  .md\:w-60 {
-    width: 15rem;
-  }
-
   .md\:w-96 {
     width: 24rem;
   }
@@ -1209,16 +1146,6 @@ input[type=file]::file-selector-button:hover {
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .md\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-lg {
