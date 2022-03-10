@@ -9,9 +9,10 @@
     <script src="static/js/flowbite.js"></script>
 </head>
 
-<body>
+<body class="dark:bg-gray-800">
     <!--Menú de navegación-->
-    <nav class="z-0 bg-white border-gray-200 px-2 py-2.5 sm:px-4 md:py-16 dark:bg-gray-800">
+    <nav
+        class="z-10 top-0 w-full bg-white/[0.97] border-gray-200 fixed px-2 py-2.5 sm:px-4 md:py-16 dark:bg-gray-800/[0.97]">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="#" class="flex items-start">
                 <img src="static/img/vacunate_blue_logo.png" class="hidden mr-3 h-10 md:h-16 dark:block" alt="Vacúnate">
@@ -60,35 +61,106 @@
             </div>
         </div>
     </nav>
-    <div class="items-center md:columns-2 dark:bg-gray-800">
-        <div>
+    <div class="md:grid md:grid-cols-2 dark:bg-gray-800">
+        <div class="my-14 md:my-[20rem]">
             <p
-                class="py-6 w-3/4 md:w-96 md:text-6xl text-3xl font-bold text-[rgb(31,62,114)] dark:text-white mr-auto ml-auto">
-                Combatamos el virus con vacunación</p>
+                class="py-6 w-3/4 md:w-[40rem] md:text-8xl sm:text-6xl text-3xl font-bold text-[rgb(31,62,114)] dark:text-white mr-auto ml-auto">
+                Combatamos al virus con la vacunación</p>
             <p
-                class="w-3/4 md:w-96 md:text-lg text-base text-justify text-[rgb(109,123,147)] dark:text-white mr-auto ml-auto">
+                class="w-3/4 md:w-[40rem] md:text-3xl md:font-semibold text-base text-justify text-[rgb(109,123,147)] dark:text-white mr-auto ml-auto">
                 Detengamos la pandemia a través de la vacunación, no permitas que tú familia y tu sean infectados</p>
 
             <div class="py-8 w-full justify-center inline-flex ml-auto mr-auto">
-                <svg class="w-6 h-6 dark:text-white" fill="currentColor" viewBox="0 0 20 20"
+                <svg class="w-8 h-8 text-yellow-300 dark:text-white" fill="currentColor" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd"
                         d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                         clip-rule="evenodd"></path>La mejor
                 </svg>
-                <p class="text-[rgb(31,62,114)] px-3 dark:text-white">La mejor protección</p>
-                <svg class="w-6 h-6 dark:text-white" fill="currentColor" viewBox="0 0 20 20"
+                <p class="text-[rgb(31,62,114)] md:text-2xl px-3 dark:text-white">La mejor protección</p>
+                <svg class="w-8 h-8 text-yellow-300 dark:text-white" fill="currentColor" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
                     </path>
                 </svg>
-                <p class="text-[rgb(31,62,114)] px-3 text-base dark:text-white">Vacunas certificadas</p>
+                <p class="text-[rgb(31,62,114)] md:text-2xl px-3 text-base dark:text-white">Vacunas certificadas</p>
             </div>
         </div>
-        <div class="-z-10">
-            <img src="static/img/nurse_vacinne.jpg" class="rounded-t-lg">
+        <div class="h-[20rem] sm:h-[40rem] md:h-[80rem]">
+            <img src="static/img/nurse_vacinne.jpg" class="object-cover w-auto h-[20rem] sm:h-[40rem] md:h-[80rem]">
         </div>
+        <div
+            class="sm:top-[55rem] md:top-[65rem] sm:ml-24 sm:absolute col-span-2 h-44 w-full sm:w-3/4 md:ml-40 md:h-52 md:w-2/3 shadow-md rounded-lg bg-white/[0.97] dark:bg-gray-800/[0.97]">
+            <section class="inline-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="my-3 mx-3 w-8 h-8 text-blue-600 dark:text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                </svg>
+                <p class="text-[rgb(31,62,114)] md:text-3xl font-semibold px-3 text-base self-center dark:text-white">
+                    Agenda tus vacunas</p>
+            </section>
+            <div class="mt-5 ml-5 mr-5 grid grid-cols-3 md:grid-cols-4 auto-cols-min">
+                <section class="inline-flex w-full self-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="my-3 mx-3 w-8 h-8 text-blue-600 dark:text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                    </svg>
+                    <div>
+                        <p
+                        class="text-[rgb(109,123,147)] md:text-3xl text-base self-center dark:text-white">
+                        Ubicación</p>
+                        <p
+                        class="col-start-2 text-[rgb(31,62,114)] md:text-3xl font-semibold text-base self-center dark:text-white">
+                        CDMX</p>
+                    </div>
+                </section>
+                <section class="inline-flex w-full self-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="my-3 mx-3 w-8 h-8 text-blue-600 dark:text-white" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" />
+                    </svg>
+                    <div>
+                        <p
+                        class="text-[rgb(109,123,147)] md:text-3xl text-base self-center dark:text-white">
+                        Fecha</p>
+                        <p
+                        class="col-start-2 text-[rgb(31,62,114)] md:text-3xl font-semibold text-base self-center dark:text-white">
+                        11 de Marzo</p>
+                    </div>
+                </section>
+                <section class="inline-flex w-full self-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="my-3 mx-3 w-8 h-8 text-blue-600 dark:text-white" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z" clip-rule="evenodd" />
+                    </svg>
+                    <div>
+                        <p
+                        class="text-[rgb(109,123,147)] md:text-3xl text-base self-center dark:text-white">
+                        Vacuna</p>
+                        <p
+                        class="col-start-2 text-[rgb(31,62,114)] md:text-3xl font-semibold text-base self-center dark:text-white">
+                        Pfizer</p>
+                    </div>
+                </section>
+                <button type="button"
+                    class="col-span-full md:col-span-1 md:w-10/12 shadow-md text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm md:text-2xl px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 h-72">
+        <section class="ml-5 md:ml-40 mr-10 self-center">
+            <img class="object-cover w-full dark:hidden md:h-[80px]" src="static/img/astra.png">
+            <img class="hidden object-scale-down w-full dark:block md:h-[80px]" src="static/img/astra.png">
+        </section>
+        <section class="mr-10 self-center">
+            <img class="object-cover w-full dark:hidden md:h-[80px]" src="static/img/sinovac.png">
+            <img class="hidden object-scale-down w-full dark:block md:h-[65px]" src="static/img/sinovac.png">
+        </section>
+        <section class="mr-10 self-center ml-5 md:ml-0">
+            <img class="object-cover w-full dark:hidden md:h-[80]" src="static/img/pfizer.png">
+            <img class="hidden object-scale-down w-full dark:block md:h-[125px]" src="static/img/pfizer.png">
+        </section>
+        <section class="md:mr-40 self-center mr-5">
+            <img class="object-cover w-full dark:hidden md:h-[80]" src="static/img/moderna.png">
+            <img class="hidden object-scale-down w-full dark:block md:h-[80px]" src="static/img/moderna.png">
+        </section>
     </div>
 </body>
 <footer>
