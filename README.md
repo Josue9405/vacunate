@@ -15,4 +15,4 @@
     <a href="https://www.figma.com/file/YbMxR80xFeMxqdzzoWAIfT/Vac%C3%BAnate?node-id=0%3A1">Marketing Figma</a>
   </p>
 </div>
-<img src="figma.png" alt="Vacúnatw">
+<p align="center"><img src="figma.png" alt="Vacúnatw"></p>
