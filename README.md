@@ -6,7 +6,7 @@
     <img src="static/img/vacunate_bicolor_logo.png" alt="Logo" width="240">
   </a>
 
-  <h3 align="center">iCake</h3>
+  <h3 align="center">VACÚNATE</h3>
 
   <p align="center">
     Página para promover la vacunación contra el COVID-19
